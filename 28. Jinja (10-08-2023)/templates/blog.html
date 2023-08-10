@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Some Blog</title>
+</head>
+<body>
+    <!--The objective is to render all of the titles of the blogs we have (exercise 2)-->
+    <!--How to use more complex code in HTML-->
+    {% for post in posts: %}
+        <h1>{{ post['title'] }}</h1> 
+        <h2>{{ post['subtitle'] }}</h2>
+        
+     {% if post['id'] == 2: %}
+        <p>I suggest you don't read this one</p>
+        {% endif %}
+    {% endfor %} <!--This specifies the end of our loop. An if statement would have used endif-->
+
+
+    <!--It is possible to redirect to another page based on one of the functions we made-->
+    <a href="{{ url_for('home',name='Bob') }}"> Some link </a>
+
+
+
+    
+</body>
+</html>
