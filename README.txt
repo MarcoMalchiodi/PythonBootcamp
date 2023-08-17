@@ -6,3 +6,6 @@ Today I have started the HTML/CSS/Javascript section of the course. I'm curious 
 
 08/08/2023
 In-depth study of Flask and decorator functions with classes.
+
+17/08/2023
+Basics of Web Design.
