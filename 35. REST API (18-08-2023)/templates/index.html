@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Cafe&Wifi API</title>
+</head>
+<body>
+    <h1>Welcome to the Cafe & Wifi API</h1>
+
+    <div class="container">
+        <form method="POST" action="{{ url_for('add') }}">
+            <p>name</p>
+            <input type="text" name="name"><br>
+            <p>map url</p>
+            <input type="text" name="map_url"><br>
+            <p>image url</p>
+            <input type="text" name="img_url"><br>
+            <p>location</p>
+            <input type="text" name="loc"><br>
+            <p>does it have sockets?</p>
+            <input type="text" name="sockets"><br>
+            <p>does it have toilets?</p>
+            <input type="text" name="toilet"><br>
+            <p>does it have wifi</p>
+            <input type="text" name="wifi"><br>
+            <p>can you take calls?</p>
+            <input type="text" name="calls"><br>
+            <p>seats</p>
+            <input type="text" name="seats"><br>
+            <p>coffee price</p>
+            <input type="text" name="coffee_price"><br>
+            <button type="submit" value="Submit">Add</button>
+        </form>
+    </div>
+</body>
+</html>

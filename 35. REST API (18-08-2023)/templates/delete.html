@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+</head>
+<body>
+    <div class="container">
+        {% for cafe in cafes %}
+        <form method="POST" action="{{ url_for('delete') }}">
+            
+            <p>{{ cafe.name }}</p>
+            <input type="hidden" name="cafe_name" value="{{ cafe.name }}">
+            <button value="Submit" type="submit">Delete</button><br>
+        </form>
+        {% endfor %}
+    </div>
+    
+</body>
+</html>
