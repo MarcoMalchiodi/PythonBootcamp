@@ -9,3 +9,6 @@ In-depth study of Flask and decorator functions with classes.
 
 17/08/2023
 Basics of Web Design.
+
+22/08/2023
+Learned how to deploy Web applications by using Heroku.
