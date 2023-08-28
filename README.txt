@@ -12,3 +12,6 @@ Basics of Web Design.
 
 22/08/2023
 Learned how to deploy Web applications by using Heroku.
+
+28/08/2023
+Started NumPy with a foces on matrices
