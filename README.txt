@@ -14,4 +14,4 @@ Basics of Web Design.
 Learned how to deploy Web applications by using Heroku.
 
 28/08/2023
-Started NumPy with a foces on matrices
+Started NumPy with a focus on matrices
