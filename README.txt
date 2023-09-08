@@ -18,3 +18,6 @@ Started NumPy with a focus on matrices
 
 07/09/2023
 Attended Pycon Estonia in Tallin. The topic I enjoyed the most was Natural Language Processing by Aroma Rodrigues. I also attended a ML workshop after the event, which I really enjoyed despite the compatibility issues with Visual Studio Code (as usual).
+
+08/09/2023
+Second day of Pycon.
